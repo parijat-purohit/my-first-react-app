@@ -7,8 +7,8 @@ import {
 } from "react-simple-maps";
 
 const MapChart = () => {
-  const markerData = { // Replace with
-    coordinates: [65.85, 128.80], // Example coordinates, adjust as needed
+  const markerData = {
+    coordinates: [65.85, 128.80],
     name: "Calgary"
   };
   return (
@@ -36,7 +36,7 @@ const MapChart = () => {
         <circle r={4} fill="#FF0000" stroke="#FFF" strokeWidth={1} />
         <text
           textAnchor="middle"
-          y={-11} // Adjust y position for better placement
+          y={-11}
           style={{ fontFamily: "system-ui", fill: "#FFF" }}
         >
           {markerData.name}

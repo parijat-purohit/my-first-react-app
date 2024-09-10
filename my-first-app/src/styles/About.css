@@ -23,13 +23,15 @@
     width: 600px;
 }
 .about-content {
+    display: flex;
+    align-items: center;
     width: 600px;
 }
 
-.image-container {
+.image-content {
     display: flex;
-    align-items: top;
-    padding: 1.4cm;
+    padding-top: 4cm;
+    padding-right: 1cm;
     max-width: 530px;
     height: 65vh;
 }

@@ -7,9 +7,9 @@ const About = () => {
       <div className="about-container">
         <div className="about-content">
           <div className="header">
-            # about me
+            About Me
             <div className="about-desc">
-              With an M.Sc. in Quantum Computation from the University of Lethbridge 
+              With an M.Sc. in Quantum Computation from the University of Lethbridge
               and five years of backend development experience at FarmersEdge and Jonah Group, 
               here are some of the skills I am efficient at:
             </div>
@@ -43,7 +43,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="image-container">
+        <div className="image-content">
           <img src="./assets/images/me5.jpg" alt="abc"/>
         </div>
       </div>

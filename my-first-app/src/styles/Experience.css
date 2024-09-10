@@ -1,4 +1,61 @@
 .experience{
     scroll-snap-align: center;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
+.experience-container{
+    scroll-snap-align: center;
+    height: 100vh;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+  
+.company-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+.company-item {
+    cursor: pointer;
+    padding: 1rem;
+    border: 1px solid #ccc;
+  }
+  
+.company-item.active {
+    background-color: gray;
+  }
+
+.exp-header{
+    font-size: 25px;
+    padding-bottom: 1cm;
+}
+
+.description-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 1cm;
+  }
+  .description-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0.5cm;
+  }
+  
+  .description-list li::before {
+    content: '>';
+    margin-right: 0.5rem;
+  }
