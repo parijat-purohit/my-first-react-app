@@ -1,0 +1,48 @@
+.navbar{
+    scroll-snap-align: center;
+    height: 100vh;
+}
+.section{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    color: white;
+    padding: 10px 0;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    align-items: center;
+}
+.icons a{
+    color: white;
+    text-decoration: None;
+
+}
+.icons div:not(.my-name):hover a{
+    cursor: pointer;
+    color: lightpink;
+}
+.links div:hover{
+    cursor: pointer;
+    color: lightpink;
+}
+.my-name{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    
+}

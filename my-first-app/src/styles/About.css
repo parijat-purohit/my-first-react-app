@@ -1,0 +1,55 @@
+.about{
+    scroll-snap-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-container{
+    scroll-snap-align: center;
+    height: 100vh;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header{
+    font-size: 25px;
+    display: flex;
+    color: whitesmoke;
+    flex-direction: column;
+    height: 50vh;
+    width: 600px;
+}
+.about-content {
+    width: 600px;
+}
+
+.image-container {
+    display: flex;
+    align-items: top;
+    padding: 1.4cm;
+    max-width: 530px;
+    height: 65vh;
+}
+.about-desc {
+    font-size: 18px;
+    font-weight: 500; /* Adjust weight as needed */
+    font-family: "NTR", sans-serif;
+    width: 600px;
+    line-height: 1.8; /* Adjust line height for better readability */
+    color: darkgray; /* Adjust text color */
+    text-align: justify;
+    margin: 0;
+    padding-top: 0.5cm;
+    padding-bottom: 1cm;
+}
+.list-skills{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+li{
+    list-style: None;
+}
