@@ -7,7 +7,7 @@ import "../styles/Navbar.css";
 
 const Navbar = () => {
     return (
-        <div className="navbar">
+        <div fixed="top" className="navbar">
             <div className="section">
                 <div className="container">
                     <div className="icons">

@@ -8,8 +8,9 @@
 }
 .intro-container{
     scroll-snap-align: center;
-    height: 200vh;
     width: 1200px;
+    height: 100vh;
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,23 +18,26 @@
 }
 
 .intro-greet{
+    display: flex;
     font-size: 50px;
+    height: 40vh;
+    width: 600px;
     color: lightgrey;
+    align-items: end;
+    justify-content: center;
 }
 
 .intro-bio {
+    display: flex;
     opacity: 0;
     transform: translateY(100%);
     animation: slideIn 4s ease-in-out forwards;
-    display: flex;
-    flex-direction: row;
-    height: 55vh;
+    height: 50vh;
     width: 600px;
     text-align: center;
     line-height: 1.5;
     font-size: 20px;
     color: darkgray;
-    justify-content: space-between;
 }
 @keyframes slideIn {
     100% {

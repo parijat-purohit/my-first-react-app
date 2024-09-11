@@ -1,6 +1,15 @@
 .navbar{
-    scroll-snap-align: center;
-    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it's above other elements */
+    height: 60px; /* Adjust the height as needed */
+    background-color: black;/* Change the background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 .section{
     display: flex;
