@@ -44,7 +44,7 @@ const About = () => {
           </div>
         </div>
         <div className="image-content">
-          <img src="./assets/images/me5.jpg" alt="abc"/>
+          <img alt="Parijat Purohit" src={"./assets/images/me5.JPG"} />
         </div>
       </div>
     </div>

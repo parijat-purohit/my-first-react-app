@@ -21,7 +21,7 @@ const MapChart = () => {
       }}
     >
       <Geographies
-        geography="/features.json"
+        geography="./features.json"
         fill="Black"
         stroke="Grey"
         strokeWidth={1}
