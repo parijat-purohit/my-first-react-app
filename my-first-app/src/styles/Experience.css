@@ -62,13 +62,13 @@
 
   @media only screen and (max-width: 600px) {
     .experience-container {
-      width: 400px;
+      width: 350px;
       align-items: center;
       justify-content: center;
       grid-template-columns: 1fr;
     }
     .company-list {
-      width: 400px;
+      width: 350px;
       display: flex;
     }
     .company-item {

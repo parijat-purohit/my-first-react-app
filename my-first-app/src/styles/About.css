@@ -62,10 +62,10 @@ li{
     }
     .about-container{
         display: column;
-        width: 400px;
+        width: 350px;
     }
     .about-desc{
-        width: 400px;
+        width: 320px;
         padding-bottom: 0;
     }
 }

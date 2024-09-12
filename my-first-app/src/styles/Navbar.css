@@ -59,7 +59,7 @@
 @media only screen and (max-width: 600px) {
     .container{
         flex-direction: row;
-        width: 450px;
+        width: 400px;
         justify-content: flex-end;
     }
     .icons {
