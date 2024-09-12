@@ -3,9 +3,10 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000; /* Ensure it's above other elements */
-    height: 60px; /* Adjust the height as needed */
-    background-color: black;/* Change the background color */
+    z-index: 1000;
+    height: 60px;
+    width: 100vw;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,10 +14,9 @@
 }
 .section{
     display: flex;
-    justify-content: center;
 }
 .container{
-    width: 1400px;
+    width: 97vw;
     display: flex;
     justify-content: space-between;
 }
@@ -58,7 +58,7 @@
 
 @media only screen and (max-width: 600px) {
     .container{
-        flex-direction: column;
+        justify-content: flex-start;
 
     }
     .icons {
