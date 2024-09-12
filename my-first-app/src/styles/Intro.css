@@ -45,3 +45,13 @@
         transform: translateX(0);
       }
 }
+
+@media only screen and (max-width: 600px) {
+    .intro-greet{
+        font-size: 40px;
+    }
+    .intro-bio{
+        width: 400px;
+        font-size: 18px;
+    }
+}

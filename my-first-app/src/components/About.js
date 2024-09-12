@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useState, useEffect} from "react";
 import "../styles/About.css";
 
 const About = () => {
+    const [smallMedia, setSmallMedia] = useState(window.innerWidth <= 600); // Initial state based on current window width
+  
+    useEffect(() => {
+      const handleResize = () => {
+        setSmallMedia(window.innerWidth <= 600);
+      };
+  
+      window.addEventListener('resize', handleResize);
+  
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
+
   return (
     <div className="about">
       <div className="about-container">
@@ -13,6 +27,13 @@ const About = () => {
               and five years of backend development experience at FarmersEdge and Jonah Group, 
               here are some of the skills I am efficient at:
             </div>
+            {smallMedia && (
+              <div className="about-desc">
+                Python, Django, Flask, React, Docker, Github, Google Cloud
+              </div>
+            )}
+            {!smallMedia && (
+              <>
             <div className="list-skills">
               <li>
                   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -38,6 +59,8 @@ const About = () => {
                   <img src="https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud"/>
                 </li>
             </div>
+              </>
+            )}
             <div className="about-desc">
               I like to bike during my free time and explore new places. Sometimes, I tune guitar chords and sing.
             </div>

@@ -59,3 +59,24 @@
     content: '>';
     margin-right: 0.5rem;
   }
+
+  @media only screen and (max-width: 600px) {
+    .experience-container {
+      width: 400px;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: 1fr;
+    }
+    .company-list {
+      width: 400px;
+      display: flex;
+    }
+    .company-item {
+      text-align: center;
+    }
+    .description-container {
+      display: none;
+    }
+  }
+  
+

@@ -34,15 +34,31 @@
 
 .contact-icon{
     cursor: pointer;
+
 }
 
 .contact-icon:hover{
     color: yellow;
-    transform: scale(1.5);
+    transform: scale(1.6);
 }
 
 .contact-map{
     display: flex;
     align-items: center;
     flex: 2;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-map{
+        display: None;
+    }
+    .contact-greet{
+        font-size: 24px;
+    }
+    .contact-icon{
+        font-size: 20px;
+    }
+    .contact-icon:hover{
+        transform: scale(1.2);
+    }
 }

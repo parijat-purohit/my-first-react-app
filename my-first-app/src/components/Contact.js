@@ -12,7 +12,7 @@ const Contact = () => {
             Say Hello
           </div>
           <div className="contact-icon" onClick={() => window.open("mailto:parijat2009@gmail.com", "_blank")}>
-            <MailOutlineRounded style={{ fontSize: 50 }} />
+            <MailOutlineRounded style={{ fontSize: 40 }} />
           </div>
           </div>
         <div className="contact-map">

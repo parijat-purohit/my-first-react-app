@@ -12,8 +12,7 @@ const Experience = () => {
     {
       company: 'Farmers Edge Inc.',
       location: 'Remote - Winnipeg, MB, Canada',
-      title: 'Senior Software Developer',
-      dates: 'Mar 2023 - May 2024',
+      title: 'Senior Software Developer (Mar 2023 - May 2024)',
       description: [
         'Pioneered and standardized documentation for environment setup and docstring guidelines; overcame complex architectural challenges and drove cost-saving strategy implementation, enhancing business value',
         'Mentored interns and junior developers in problem-solving and leadership, tracking their progress with rigorous code reviews and scrutinizing product requirement implementations',
@@ -23,8 +22,7 @@ const Experience = () => {
     {
       company: 'Jonah Group Inc.',
       location: 'Remote - Toronto, ON, Canada',
-      title: 'Intermediate Technical Developer',
-      dates: 'May 2022 - Feb 2023',
+      title: 'Intermediate Technical Developer (May 2022 - Feb 2023)',
       description: [
         'Developed a scalable backend with Docker and Django multitenancy, streamlining data management and reinforcing security with JWT tokens and permission controls',
         'Fabricated backend APIs for real-time messaging and video appointments, utilizing Websocket protocol and Redis, and integrated Twilio APIs for video communication and scheduling',
@@ -34,8 +32,7 @@ const Experience = () => {
     {
       company: 'Farmers Edge Inc.',
       location: 'Onsite - Lethbridge, AB, Canada',
-      title: 'Software Developer',
-      dates: 'Jan 2018 - May 2022',
+      title: 'Software Developer (Jan 2018 - May 2022)',
       description: [
         "Spearheaded the deployment of RESTful APIs using Django for cutting-edge digital farming solutions, coordinating team efforts from design to launch",
         "Extracted and synthesized weather data using a Flask-based microservice from IBM Weather APIs, optimizing insurance claim processes through accurate geo-data integration",
@@ -45,8 +42,7 @@ const Experience = () => {
     {
       company: 'University of Lethbridge',
       location: 'Lethbridge, AB, Canada',
-      title: 'Graduate Teaching and Research Assistant',
-      dates: 'Sept 2015 - August 2017',
+      title: 'Graduate Teaching and Research Assistant (Sept 2015 - August 2017)',
       description: [
         "Successfully defended a Master's Thesis on 'Parameterized Query Complexity in Quantum Computation'",
         "Awarded the GSA (Graduate Students' Association) Volunteer Award for my involvement in voluntary work",
@@ -55,8 +51,7 @@ const Experience = () => {
     {
       company: 'Chittagong University of Engineering & Technology',
       location: 'Chittagong, Bangladesh',
-      title: 'Undergraduate Student',
-      dates: '2010 - 2014',
+      title: 'Undergraduate Student (2010 - 2014)',
       description: [
         "Secured the position of second-highest performer in my class with a cumulative grade point average of 3.90",
         "Contributed to OpenStreetMap updates, implemented a mobile app for spatial oriented messaging, and other projects"

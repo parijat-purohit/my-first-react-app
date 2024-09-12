@@ -37,11 +37,11 @@
 }
 .about-desc {
     font-size: 18px;
-    font-weight: 500; /* Adjust weight as needed */
+    font-weight: 500;
     font-family: "NTR", sans-serif;
     width: 600px;
-    line-height: 1.8; /* Adjust line height for better readability */
-    color: darkgray; /* Adjust text color */
+    line-height: 1.8;
+    color: darkgray;
     text-align: justify;
     margin: 0;
     padding-top: 0.5cm;
@@ -54,4 +54,18 @@
 }
 li{
     list-style: None;
+}
+
+@media only screen and (max-width: 600px) {
+    .image-content{
+        display: None;
+    }
+    .about-container{
+        display: column;
+        width: 400px;
+    }
+    .about-desc{
+        width: 400px;
+        padding-bottom: 0;
+    }
 }
