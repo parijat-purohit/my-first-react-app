@@ -3,6 +3,7 @@
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overflow-y: auto;
+  overflow-x: hidden;
   color: white;
   scrollbar-width: none;
   background: url("../public/assets/images/bg.jpeg");
