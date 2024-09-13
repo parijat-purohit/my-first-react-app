@@ -10,7 +10,7 @@ const Experience = () => {
 
   const experienceData = [
     {
-      company: 'Farmers Edge Inc.',
+      company: 'Farmers Edge Inc. (2023 - 2024)',
       location: 'Remote - Winnipeg, MB, Canada',
       title: 'Senior Software Developer (Mar 2023 - May 2024)',
       description: [
@@ -20,7 +20,7 @@ const Experience = () => {
       ]
     },
     {
-      company: 'Jonah Group Inc.',
+      company: 'Jonah Group Inc. (2022 - 2023)',
       location: 'Remote - Toronto, ON, Canada',
       title: 'Intermediate Technical Developer (May 2022 - Feb 2023)',
       description: [
@@ -30,7 +30,7 @@ const Experience = () => {
       ]
     },
     {
-      company: 'Farmers Edge Inc.',
+      company: 'Farmers Edge Inc. (2018 - 2022)',
       location: 'Onsite - Lethbridge, AB, Canada',
       title: 'Software Developer (Jan 2018 - May 2022)',
       description: [
@@ -40,7 +40,7 @@ const Experience = () => {
       ]
     },
     {
-      company: 'University of Lethbridge',
+      company: 'University of Lethbridge (2015 - 2017)',
       location: 'Lethbridge, AB, Canada',
       title: 'Graduate Teaching and Research Assistant (Sept 2015 - August 2017)',
       description: [
@@ -49,7 +49,7 @@ const Experience = () => {
       ]
     },
     {
-      company: 'Chittagong University of Engineering & Technology',
+      company: 'Chittagong University of Engineering & Technology (2010 - 2014)',
       location: 'Chittagong, Bangladesh',
       title: 'Undergraduate Student (2010 - 2014)',
       description: [
@@ -63,7 +63,7 @@ const Experience = () => {
     <div className="experience">
       <div className="experience-container">
         <div className="company-list">
-          <div className='exp-header'>Experience & Education</div>
+          <div className='experience-header'>Experience & Education</div>
           {experienceData.map((company, index) => (
             <div
               key={index}
